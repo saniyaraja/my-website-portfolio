@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
@@ -88,4 +89,14 @@ p {
 
 .email-link:hover {
     text-decoration: underline;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    p {
+        font-size: 13px;
+    }
 }
