@@ -53,6 +53,10 @@ p {
     text-transform: capitalize;
 }
 
+.profile {
+    max-width: 200px;
+}
+
 .contact-link {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
