@@ -101,7 +101,7 @@ p {
     display: flex;
     justify-content: center;
     color: var(--primary-color);
-    font-size: 28px;
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -109,6 +109,31 @@ p {
     text-decoration: underline;
 }
 
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover {
+    color: var (--primary-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+    
+}
+
+footer .social-links a:hover {
+    color: black;
+    background: var (--primary-color);
+}
 
 
 @media all and (max-width: 800px) {
