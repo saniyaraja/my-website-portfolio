@@ -150,4 +150,9 @@ h5 {
     p {
         font-size: 13px;
     }
+
+    .profile-pic {
+        display:flex;
+        justify-content: center;
+    }
 }
